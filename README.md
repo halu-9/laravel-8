@@ -11,6 +11,12 @@ sail down
 # 閲覧
 http://localhost
 
+# 整形
+```bash
+pint
+```
+※このリポジトリでのみ有効。phpリポジトリにpintを導入する場合は[こちら](https://laravel.com/docs/13.x/pint#installation)を参照
+
 ## memo
 laravel8系をDLした直後は
 ```log
