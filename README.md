@@ -17,6 +17,17 @@ pint
 ```
 ※このリポジトリでのみ有効。phpリポジトリにpintを導入する場合は[こちら](https://laravel.com/docs/13.x/pint#installation)を参照
 
+# テストコード
+テストコードファイルの作成
+```bash
+sail artisan make:test FileName
+```
+
+# テスト実施
+```bash
+sail test tests/Feature/TestFileName.php
+```
+
 ## memo
 laravel8系をDLした直後は
 ```log
