@@ -28,6 +28,16 @@ sail artisan make:test FileName
 sail test tests/Feature/TestFileName.php
 ```
 
+# migration
+```bash
+sail artisan migrate
+```
+
+# db接続
+```bash
+sail mysql
+```
+
 ## memo
 laravel8系をDLした直後は
 ```log
@@ -40,6 +50,8 @@ SQLSTATE[42S02]: Base table or view not found: 1146 Table 'laravel.sessions' doe
 
 ```bash
 ./vendor/bin/sail artisan migrate
+// エイリアス設定している場合は次のようにしてもok
+sail artisan migrate
 ```
 でmigrateしてやると完了する。
 
