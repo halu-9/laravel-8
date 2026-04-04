@@ -33,9 +33,15 @@ sail test tests/Feature/TestFileName.php
 sail artisan migrate
 ```
 
-# db接続
+# db疎通
+## 接続
 ```bash
 sail mysql
+```
+## 切断
+```bash
+// 対話型shellを終了
+ctrl + D
 ```
 
 ## memo
